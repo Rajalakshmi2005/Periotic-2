@@ -1,0 +1,36 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding: 0;
+    
+}
+#whole-div{
+    height:80vh;
+    width:80vw;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(9,1fr);
+    border:1px solid black;
+    margin-left: 10%;
+    position: absolute;
+}
+#small{
+    width:80%;
+    height:80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color: white;
+    border-radius: 8px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1cm; 
+    margin-top:3%; 
+}
